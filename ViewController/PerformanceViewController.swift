@@ -25,12 +25,20 @@ class PerformanceViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         configureLayout()
+        configurePerformance()
     }
     
     func configureLayout(){
+        navigationItem.hidesBackButton = true
         buttonRestartQuiz.layer.cornerRadius = 12.0
     }
     
+    func configurePerformance(){
+        guard let score = score else {return} // unpacking optional
+        resultLabel.text = "You got \(score) out of \(questions.count) questions right"
+        let percentage = (score*100) / questions.count
+        percentageLabel.text = "Final percentage: \(percentage)%"
+    }
 
     /*
     // MARK: - Navigation
