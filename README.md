@@ -25,5 +25,4 @@ Insert gif or link to demo
 ![image](https://github.com/tiagoc0sta/iQuiz_correct_version/assets/63982700/ee7732cd-35cd-48c7-b329-54770b874ce6)
 
 ![image](https://github.com/tiagoc0sta/iQuiz_correct_version/assets/63982700/ee7732cd-35cd-48c7-b329-54770b874ce6)
-![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
 
